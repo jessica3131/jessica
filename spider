@@ -6,7 +6,7 @@ import re
 # page = 117621816
 
 def spider():
-    url = 'http://www.qiushibaike.com'
+    url = 'http://www.baidu.com'
     user_agent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36'
     headers = {'User-Agent': user_agent}
     request = urllib.request.Request(url, headers=headers)
